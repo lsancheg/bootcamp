@@ -154,7 +154,7 @@ git merge master
 # you will get a merge conflict here for build.gradle file, like 18, logback library version 
 
 # fix merge conflict and when done check the state
-git state
+git status
 
 # if all fixed, you can commit and push the merge into your bugfix branch
 git push
