@@ -6,7 +6,7 @@
 ```sh
 
 # clone repository & change into project dir
-git clone git@gitlab.com:devops-bootcamp3/git-project.git
+git clone git@gitlab.com:twn-deveops-bootcamp/exercises/git-project.git
 cd git-project
 
 # remove remote repo reference and create your own local repository
@@ -66,8 +66,8 @@ git push
 git checkout -b feature/changes
 
 # in build.gradle file, line 18, locate the "logstash-logback-encoder" library 
-# change version from '5.2' to '6.6'
-compile group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: '6.6'
+# change version from '5.2' to '7.3'
+compile group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: '7.3'
 
 # locate index.html file in src/main/webapp folder
 # on line 9, add the image url with 
@@ -78,8 +78,7 @@ git diff
 git add .
 git commit -m "Upgrade logback library and add image url"
 
-# pull remote changes and push your changes to remote
-git pull -r 
+# push your changes to remote
 git push
 ```
 
@@ -104,8 +103,7 @@ git diff
 git add .
 git commit -m "Fix spelling error"
 
-# pull remote changes and push your changes to remote
-git pull -r 
+# push your changes to remote
 git push
 ```
 
@@ -141,8 +139,8 @@ git push
 git checkout bugfix/changes
 
 # in build.gradle file, line 18, locate the "logstash-logback-encoder" library 
-# change version from '5.2' to '6.2'
-compile group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: '6.2'
+# change version from '5.2' to '7.2'
+compile group: 'net.logstash.logback', name: 'logstash-logback-encoder', version: '7.2'
 
 # commit change locally
 git add .
@@ -180,8 +178,8 @@ git push
 git add .
 git commit -m "Fix spelling error"
 
-# locate index.html in src/main/webapp, line 11 & set image url
-<img src="https://3kcz333h8wih3px3rh3vhfv3-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/effective-meetings.jpg" width="" />
+# locate index.html in src/main/webapp, line 9 & set image url
+<img src="https://www.tameday.com/wp-content/uploads/2018/10/effective-meetings.jpg" width="" />
 
 # commit change locally
 git add .
