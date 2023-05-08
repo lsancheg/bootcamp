@@ -6,8 +6,8 @@
 ```sh
 
 # clone repository & change into project dir
-git clone git@gitlab.com:twn-deveops-bootcamp/exercises/git-project.git
-cd git-project
+git clone git@gitlab.com:twn-devops-bootcamp/latest/03-git/git-exercises.git
+cd git-exercises
 
 # remove remote repo reference and create your own local repository
 rm -rf .git
